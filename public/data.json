@@ -1,0 +1,136 @@
+{
+    "dialoges":[
+       {
+          "id":1,
+          "name":"Рабочий диалог",
+          "logo":"./img/work_dialog.jpg",
+          "link": "/work",
+          "gueste":[
+             {
+                "id":1,
+                "name":"Светлана",
+                "surname":"Тирещенко",
+                "guest_logo":"img/logo_share.png"
+             },
+             {
+                "id":2,
+                "name":"Андрей",
+                "surname":"Коновалов",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":3,
+                "name":"Юлия",
+                "surname":"Цезарь",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":4,
+                "name":"Максим",
+                "surname":"Долгоруков",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":5,
+                "name":"Петр",
+                "surname":"Кочелев",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             }
+          ],
+          "number_of_messages":5,
+          "unread_messages": 5,
+          "messages":[
+             {
+                "guest_id":2,
+                "full_name": "Андрей Коновалов",
+                "message":"Ну что, начнем летучку?",
+                "date_message":"10:01"
+             },
+             {
+                "guest_id":5,
+                "full_name": "Петр Кочелев",
+                "message":"Я еще не готов",
+                "date_message":"10:03"
+             },
+             {
+                "guest_id":1,
+                "full_name": "Светлана Тирещенко",
+                "message":"Что там по макету?",
+                "date_message":"10:04"
+             },
+             {
+                "guest_id":3,
+                "full_name": "Юлия Цезарь",
+                "message":"Макеты сдала, и еще пять делов переделала",
+                "date_message":"10:05"
+             },
+             {
+                "guest_id":4,
+                "full_name": "Максим Долгоруков",
+                "message":"Я что то пропустил?",
+                "date_message":"10:05"
+             }
+          ]
+       },
+       {
+          "id":2,
+          "name":"Пофлудим?",
+          "logo":"./img/flood_dialog.jpg",
+          "link": "/flood",
+          "gueste":[
+             {
+                "id":1,
+                "name":"Светлана",
+                "surname":"Тирещенко",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":2,
+                "name":"Юлия",
+                "surname":"Цезарь",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":3,
+                "name":"Максим",
+                "surname":"Долгоруков",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             },
+             {
+                "id":4,
+                "name":"Петр",
+                "surname":"Кочелев",
+                "guest_logo":"./Dialog/img/logo_share.png"
+             }
+          ],
+          "number_of_messages":4,
+          "unread_messages": 4,
+          "messages":[
+             {
+                "guest_id":2,
+                "full_name": "Юлия Цезарь",
+                "message":"Надо бы встретиться хоть...",
+                "date_message":"12:16"
+             },
+             {
+                "guest_id":1,
+                "full_name": "Светлана Тирещенко",
+                "message":"Ты чего, корона же гуляет!",
+                "date_message":"12:17"
+             },
+             {
+                "guest_id":4,
+                "full_name": "Петр Кочелев",
+                "message":"Пфф, я вообще в это не верю! Погнали сегодня в Чайную?",
+                "date_message":"12:18"
+             },
+             {
+                "guest_id":3,
+                "full_name": "Максим Долгоруков",
+                "message":"Я что то пропустил?",
+                "date_message":"12:18"
+             }
+          ]
+       }
+    ]
+ }
